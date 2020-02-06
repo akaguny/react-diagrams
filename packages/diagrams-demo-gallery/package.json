@@ -27,6 +27,7 @@
 		"nodes"
 	],
 	"dependencies": {
+		"antd": "^3.26.8",
 		"gsap": "^3.0.1"
 	}
 }

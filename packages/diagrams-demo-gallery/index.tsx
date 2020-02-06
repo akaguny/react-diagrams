@@ -24,7 +24,7 @@ addDecorator(fn => {
 	return fn();
 });
 
-import demo_simple from './demos/demo-simple';
+import demo_simple from './demos/demo-simple-with-antd-react-forms';
 import demo_flow from './demos/demo-simple-flow';
 import demo_performance from './demos/demo-performance';
 import demo_locks from './demos/demo-locks';
@@ -38,7 +38,7 @@ import demo_custom_delete_keys from './demos/demo-custom_delete_keys';
 import demo_custom_action from './demos/demo-custom-action';
 
 storiesOf('Simple Usage', module)
-	.add('Simple example', demo_simple)
+	.add('Simple with antd react forms', demo_simple)
 	.add('Simple flow example', demo_flow)
 	.add('Performance demo', demo_performance)
 	.add('Locked widget', demo_locks)
